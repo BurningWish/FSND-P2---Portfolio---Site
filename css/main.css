@@ -1,0 +1,128 @@
+/* global styles */
+
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+}
+
+
+.container {
+    max-width: 1024px;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* header */
+
+.logo {
+    margin-top: 20px;
+    color: #02b3e4;
+}
+
+
+.author {
+    font-weight: 100;
+    font-size: 50px;
+    color: #2d3c49;
+}
+
+
+.occupation {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.navbar {
+    background: #fff;
+    border: none;
+    margin: 2em 0 0 0;
+}
+
+
+.navbar li a,
+.navbar-brand {
+    font-weight: 400;
+}
+
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #fff, #2d3c49, #fff);
+}
+
+
+/* article */
+
+
+.article_title {
+    text-align: center;
+}
+
+
+.article_content {
+    font-size: 15px;
+}
+
+
+/* section */
+
+
+.section_title {
+    font-size: 25px;
+    color: #7d97ad;
+}
+
+
+.section_intro {
+    text-align: center;
+}
+
+
+.feature_place {
+    padding-bottom: 20px;
+}
+
+
+/*footer*/
+
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+
+footer {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*Media Quaries*/
+
+
+@media screen and (max-width: 650px) {
+    .author {
+        font-size: 30px;
+    }
+
+    .occupation {
+        font-size: 18px;
+    }
+}

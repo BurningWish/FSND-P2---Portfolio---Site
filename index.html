@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Portfolio Site for Project 2 of Udacity Nanodegree">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>FSND-P2-Portfolio Site</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <i class="logo fa fa-camera-retro fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-9 text-right text-uppercase">
+                        <h1 class="author">Jane Doetto</h1>
+                        <h4 class="occupation">Photo Ninja</h4>
+                    </div>
+                </div>
+
+                <!-- Use bootstrap Navbar functionality -->
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better display in small screen devices -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                Jane's Gallery
+                            </a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav nav-right">
+                                <li>
+                                    <a href="#">Home&nbsp;
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">About Me&nbsp;
+                                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact&nbsp;
+                                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#">Sign Up&nbsp;
+                                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Login&nbsp;
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="images/venezia_medium.jpg">
+                            <img src="images/venezia_small.jpg" alt="this is the picture of Venice">
+                        </picture>
+                        <h2 class="article_title">City of Canals</h2>
+                        <p class="article_content">Venice is a city in northeastern Italy and the capital of the Veneto region. It is situated across a group of 117 small islands that are separated by canals and linked by bridges. These are located in the shallow Venetian Lagoon, an enclosed bay that lies between the mouths of the Po and the Piave Rivers. Parts of Venice are renowned for the beauty of their settings, their architecture, and artwork. The lagoon and a part of the city are listed as a World Heritage Site.</p>
+
+                        <p class="article_content">But if you think Venice is the only place to visit in Italy, you are wrong. Check my following photos to see other beautiful places in this country.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <section class="feature_images">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="section_title">Featured Images</h4>
+                    </div>
+                </div>
+
+                <div class="row section_intro">
+                    <div class="feature_place col-md-4 col-sm-6 col-xs-12">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="images/colosseo_medium.jpg">
+                            <img src="images/colosseo_small.jpg" alt="This is the picture of the Roman Colosseum">
+                        </picture>
+                        <h3>Roman Colosseum</h3>
+                        <a href="">Unsplash.com/colosseo</a>
+                    </div>
+                    <div class="feature_place col-md-4 col-sm-6 col-xs-12">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="images/vaticani_medium.jpg">
+                            <img src="images/vaticani_small.jpg" alt="This is the picture of the Vatican City">
+                        </picture>
+                        <h3>Vatican City</h3>
+                        <a href="">Unsplash.com/vaticani</a>
+                    </div>
+                    <div class="feature_place col-md-4 col-sm-6 col-xs-12">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="images/duomo_medium.jpg">
+                            <img src="images/duomo_small.jpg" alt="This is the picture of the Milan Cathedral">
+                        </picture>
+                        <h3>Milan Cathedral</h3>
+                        <a href="#">Unsplash.com/duomo</a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <h3 class="self_intro">Follow me on the social media if your are interested</h3>
+                <div id="social">
+                    <a href="#" class="zocial-twitter">Twitter</a>
+                    <a href="#" class="zocial-facebook">Facebook</a>
+                    <a href="#" class="zocial-googleplus">Google+</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
